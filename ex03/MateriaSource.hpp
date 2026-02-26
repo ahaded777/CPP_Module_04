@@ -17,11 +17,11 @@ class MateriaSource : public IMateriaSource
         void learnMateria(AMateria *param);
         AMateria* createMateria(std::string const &type);
         MateriaSource();
-        void getType();
         MateriaSource& operator=(const MateriaSource& oth);
         MateriaSource(const MateriaSource &copy);
         ~MateriaSource();
 };
+
 
 
 #endif
